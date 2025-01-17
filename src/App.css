@@ -1,0 +1,119 @@
+/* Genel Ayarlar */
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: #f9f9f9;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+/* Hero Section */
+.hero {
+  text-align: center;
+  padding: 80px 20px; /* Daha fazla boşluk eklendi */
+  background-color: #fdda3c;
+  color: white;
+}
+
+.hero-title {
+  font-size: 3rem; /* Yazı boyutu büyütüldü */
+  margin-bottom: 30px; /* Alt boşluk artırıldı */
+  font-weight: bold;
+  line-height: 1.4; /* Daha iyi okunabilirlik için satır yüksekliği */
+}
+
+.hero-image {
+  width: 100%;
+  max-width: 800px;
+  margin: 30px auto 0; /* Üst boşluk artırıldı */
+  display: block;
+}
+
+/* Who We Are Section */
+.who-we-are {
+  padding: 80px 20px; /* Daha fazla boşluk eklendi */
+  text-align: center;
+  background-color: white;
+}
+
+.section-title {
+  font-size: 2.5rem; /* Yazı boyutu büyütüldü */
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.section-description {
+  font-size: 1.2rem; /* Yazı boyutu büyütüldü */
+  color: #555; /* Daha yumuşak bir renk tonu */
+  margin-bottom: 40px; /* Alt boşluk artırıldı */
+  line-height: 1.6; /* Daha iyi okunabilirlik için satır yüksekliği */
+}
+
+.section-image {
+  max-width: 600px;
+  margin: 20px auto;
+  display: block;
+}
+/* Meet the Team Section */
+.team {
+  padding: 60px 20px;
+  background-color: #f8f8f8;
+}
+
+.team-image {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+
+/* Success Metrics Section */
+.success-metrics {
+  padding: 40px 20px;
+  background-color: #000;
+  color: #fdda3c;
+  text-align: center;
+}
+
+.metrics-image {
+  max-width: 100%;
+  margin: 0 auto;
+  display: block;
+}
+
+/* Contact Form Section */
+.contact-form {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+.form-image {
+  max-width: 600px;
+  margin: 0 auto;
+  display: block;
+}
+
+input,
+textarea {
+  width: 100%;
+  max-width: 500px;
+  margin: 10px auto;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+button {
+  background-color: #000;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  margin-top: 20px;
+}
