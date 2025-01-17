@@ -28,7 +28,7 @@ const App = () => {
 
       {/* Meet the Team Section */}
       <section className="team">
-        <h2 className="section-title">Meet the heroes behind the magic</h2>
+        <h2 className="section-title">Meetttttt the heroes behind the magic</h2>
         <img src={MeetTeam} alt="Team" className="team-image" />
       </section>
 
